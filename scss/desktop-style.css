@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@300;400;700&display=swap");
+* {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+* body {
+  background-color: #090b1a;
+}
+
+main {
+  background-color: #1b1938;
+  color: white;
+  letter-spacing: 0.2px;
+}
+
+main .introduction h1, main .introduction h2 {
+  font-family: "Inter", sans-serif;
+}
+
+main .introduction p {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+main .introduction .softViolet {
+  color: #aa5cdb;
+  font-size: 28px;
+}
+
+main .introduction .intro-2 {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+main .introduction .intro-3 div {
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+
+main .introduction .intro-3 p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: smaller;
+  letter-spacing: 1px;
+}
+
+footer {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: #aa5cdb;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*desktop width: min 768px*/
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 900px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 80%;
+  border-radius: 9px;
+  text-align: start;
+  /*purple tilt over the photo - this doesn't work I give up.. */
+}
+
+main .cover .mobile {
+  display: none;
+}
+
+main .cover img {
+  position: relative;
+  height: 100%;
+  border-radius: 0 9px 9px 0;
+}
+
+main .overlay {
+  height: 100%;
+  width: auto;
+  position: fixed;
+  background-color: rgba(188, 5, 255, 0.3);
+}
+
+main .introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 72px;
+}
+
+main .introduction .intro-1 h1, main .introduction .intro-1 span {
+  font-size: 38px;
+}
+
+main .introduction .intro-2 {
+  padding: 32px 0;
+}
+
+main .introduction .intro-2 p {
+  font-size: 18px;
+}
+
+main .introduction .intro-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .introduction .intro-3 div {
+  padding: 40px 64px 0 0;
+}
+
+main .introduction .intro-3 h2 {
+  font-size: 24px;
+}
+
+main .introduction .intro-3 p {
+  font-size: 15px;
+}
+
+footer {
+  padding: 12px;
+  font-size: 18px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #aa5cdb;
+}
+/*# sourceMappingURL=desktop-style.css.map */

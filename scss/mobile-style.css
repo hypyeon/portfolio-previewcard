@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@300;400;700&display=swap");
+* {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+* body {
+  background-color: #090b1a;
+}
+
+main {
+  background-color: #1b1938;
+  color: white;
+  letter-spacing: 0.2px;
+}
+
+main .introduction h1, main .introduction h2 {
+  font-family: "Inter", sans-serif;
+}
+
+main .introduction p {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+main .introduction .softViolet {
+  color: #aa5cdb;
+  font-size: 28px;
+}
+
+main .introduction .intro-2 {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+main .introduction .intro-3 div {
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+
+main .introduction .intro-3 p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: smaller;
+  letter-spacing: 1px;
+}
+
+footer {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: #aa5cdb;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*mobile width: min 280px*/
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 88%;
+  margin: 52px auto 12px auto;
+  border-radius: 9px;
+  text-align: center;
+}
+
+main .cover .desktop {
+  display: none;
+}
+
+main .cover img {
+  width: 100%;
+  border-radius: 9px 9px 0 0;
+}
+
+main .introduction {
+  padding: 18px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .introduction h1, main .introduction h2 {
+  font-size: 28px;
+}
+
+main .introduction .intro-1 {
+  margin: 18px 9px;
+}
+
+main .introduction .intro-2 {
+  padding: 4px 9px 24px 9px;
+}
+
+main .introduction .intro-3 div {
+  margin: 18px 0;
+}
+
+main .introduction .intro-3 div h2 {
+  font-size: 24px;
+}
+
+main .introduction .intro-3 div p {
+  padding-top: 9px;
+}
+
+main .introduction .intro-3 .p-12 {
+  padding: 18px 0;
+}
+
+footer {
+  margin-bottom: 52px;
+}
+
+footer a {
+  font-size: 11px;
+  text-align: center;
+}
+/*# sourceMappingURL=mobile-style.css.map */

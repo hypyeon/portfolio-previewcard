@@ -1,0 +1,68 @@
+@import './styles';
+@import './margins';
+
+/*mobile width: min 280px*/
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    width: 88%;
+    margin: 52px auto 12px auto;
+    border-radius: 9px;
+
+    text-align: center;
+
+    .cover {
+        .desktop {
+            display: none;
+        }
+        img {
+            width: 100%;
+            border-radius: 9px 9px 0 0;
+        }
+    }
+
+    .introduction {
+        padding: 18px 24px;
+
+        display: flex;
+        flex-direction: column;
+
+        h1, h2 {
+            font-size: 28px;
+        }
+
+        .intro-1 {
+            margin: 18px 9px;
+        }
+
+        .intro-2 {
+            padding: 4px 9px 24px 9px;
+        }
+
+        .intro-3 {
+            div {
+                margin: 18px 0;
+                h2 {
+                    font-size: 24px;
+                }
+                p {
+                    padding-top: 9px;
+                }
+            }
+            .p-12 {
+                padding: 18px 0;
+            }
+        }
+    }
+
+}
+
+footer {
+    margin-bottom: 52px;
+    a {
+        font-size: 11px;
+        text-align: center;
+    }
+}

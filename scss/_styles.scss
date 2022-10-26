@@ -1,0 +1,56 @@
+@import './variables';
+
+* {
+    font-size: 15px;
+    font-family: $fontInter;
+
+    body {
+        background-color: $mainBackground;
+    }
+}
+
+main {
+    background-color: $cardBackground;
+    color: white;
+    letter-spacing: 0.2px;
+
+    .introduction {
+        h1, h2 {
+            font-family: $fontInter;
+        }
+        p {
+            font-family: $fontLexend;
+        }
+    
+        .softViolet {
+            color: $softViolet;
+            font-size: 28px;
+        }
+        
+        .intro-2 {
+            color: $mainParagraph;
+            font-weight: 300;
+            line-height: 1.5;
+        }
+        .intro-3 {
+            div {
+                text-transform: uppercase;
+                font-family: $fontInter;
+            }
+            p {
+                color: $statHeadings;
+                font-size: smaller;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}
+
+footer {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    a {
+        text-decoration: none;
+        color: $softViolet;
+    }
+}
