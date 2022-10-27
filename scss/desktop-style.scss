@@ -21,11 +21,12 @@ main {
     text-align: start;
 
     .cover {
+        border-radius: 0 9px 9px 0;
+
         .mobile {
             display: none;
         }
         img {
-            position: relative;
             height: 100%;
             border-radius: 0 9px 9px 0;
         }

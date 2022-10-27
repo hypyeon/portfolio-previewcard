@@ -15,6 +15,14 @@ main {
   letter-spacing: 0.2px;
 }
 
+main .cover {
+  background-color: #aa5cdb;
+}
+
+main .cover img {
+  mix-blend-mode: multiply;
+}
+
 main .introduction h1, main .introduction h2 {
   font-family: "Inter", sans-serif;
 }
@@ -77,6 +85,13 @@ main {
   text-align: center;
 }
 
+main .cover {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 9px 9px 0 0;
+}
+
 main .cover .desktop {
   display: none;
 }
@@ -125,12 +140,15 @@ main .introduction .intro-3 .p-12 {
   padding: 18px 0;
 }
 
-footer {
+footer .attribution {
   margin-bottom: 52px;
-}
-
-footer a {
   font-size: 11px;
   text-align: center;
+}
+
+footer .attribution a {
+  text-decoration: none;
+  color: #aa5cdb;
+  font-size: 11px;
 }
 /*# sourceMappingURL=mobile-style.css.map */

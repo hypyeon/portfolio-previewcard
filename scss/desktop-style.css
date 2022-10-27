@@ -15,6 +15,14 @@ main {
   letter-spacing: 0.2px;
 }
 
+main .cover {
+  background-color: #aa5cdb;
+}
+
+main .cover img {
+  mix-blend-mode: multiply;
+}
+
 main .introduction h1, main .introduction h2 {
   font-family: "Inter", sans-serif;
 }
@@ -94,12 +102,15 @@ main {
   /*purple tilt over the photo - this doesn't work I give up.. */
 }
 
+main .cover {
+  border-radius: 0 9px 9px 0;
+}
+
 main .cover .mobile {
   display: none;
 }
 
 main .cover img {
-  position: relative;
   height: 100%;
   border-radius: 0 9px 9px 0;
 }
