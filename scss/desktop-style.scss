@@ -6,16 +6,18 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 900px;
-    justify-content: center;
     align-items: center;
+
+    min-height: 100vh;
+    place-content: center;
 }
 
 main {
     display: flex;
     flex-direction: row-reverse;
 
-    width: 80%;
+    width: fit-content;
+    margin: 0 200px;
     border-radius: 9px;
 
     text-align: start;
@@ -32,26 +34,17 @@ main {
         }
     }
 
-    /*purple tilt over the photo - this doesn't work I give up.. */
-    .overlay {       
-        height: 100%;
-        width: auto;
-        position: fixed;
-        background-color: rgba(188, 5, 255, 0.3);
-   }
-
     .introduction {
 
         display: flex;
         flex-direction: column;
         justify-content: center;
 
-        padding: 0 72px;
-
+        margin: 0 72px;
 
         .intro-1 {
             h1, span {
-                font-size: 38px;
+                font-size: 36px;
             }
         }
 
